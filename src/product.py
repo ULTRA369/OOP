@@ -5,6 +5,7 @@ class Product:
     quantity: int                # Rоличество в наличии
     products_list: list = list()
 
+
 def __init__(self, name, description, price, quantity):
     self.name = name
     self.description = description
