@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "training-oop"
+name = "oop"
 version = "0.1.0"
 description = ""
-authors = ["Julia Bengert <yubengert@gmail.com>"]
+authors = ["Svetlana Linberg <ya.vgb@list.ru>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
