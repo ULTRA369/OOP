@@ -34,11 +34,11 @@ class Product:
 
     def __add__(self, other):
         if isinstance(other, Product):
-            if type(self) == type(other):
-                return (self.price * self.quantity) + (other.price * other.quantity)
-            else:
+            if type(self) != type(other):
                 raise TypeError(
                     f"Невозможно сложить товар типа {type(self).__name__} с товаром типа {type(other).__name__}.")
+            else:
+                return (self.price * self.quantity) + (other.price * other.quantity)
         return NotImplemented
 
 
