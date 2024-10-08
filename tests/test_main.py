@@ -1,4 +1,4 @@
-from src.classes import Product, Category, LawnGrass, Smartphone
+from src.product import Product, Category, LawnGrass, Smartphone
 
 
 def test_product_initialization():
